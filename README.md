@@ -1,1 +1,1 @@
-# dicoding-belajar-javascript
+# belajar-javascript
