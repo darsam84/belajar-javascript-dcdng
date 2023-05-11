@@ -1,3 +1,5 @@
+//Membuat fungsi oop tanpa melakukan repetisi kode kasus disini tentang developer
+
 class Developer {
   constructor(name) {
     this.name = name;
