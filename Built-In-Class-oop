@@ -1,4 +1,5 @@
 //Penggunaan kelas bawaan dari JavaScript apa aja ya: Date, Object, Array, Math, dan String
+//Lebih lengkap kunjungi https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 const date = new Date();
  
