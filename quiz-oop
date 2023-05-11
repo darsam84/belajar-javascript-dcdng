@@ -59,11 +59,11 @@ class Animal {
 
   constructor(name, age, isMamal) {
 
-    this.name = name
+    this.name = name,
 
-    this.age = age
+    this.age = age,
 
-    this.isMamal = isMamal
+    this.isMammal = isMammal
 
   }
 
