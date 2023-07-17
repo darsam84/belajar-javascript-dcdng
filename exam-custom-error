@@ -1,0 +1,70 @@
+Kita dapat membuat kelas error sendiri dengan melakukan pewarisan pada kelas….
+
+A
+Error (V)
+
+B
+Exception
+
+C
+Problem
+
+D
+BaseError
+
+
+Perhatikan kode berikut:
+
+class MyCustomError extends Error {
+    constructor(message) {
+        super(message);
+        this.name = "MyError";
+    }
+}
+
+try {
+    throw new MyCustomError("This is an error");
+} catch (e) {
+    console.log(e.message);
+}
+Output ketika kode di atas dijalankan adalah...
+
+A
+MyCustomError
+
+B
+This is an error (V)
+
+C
+MyError
+
+D
+Aplikasi tidak bisa dijalankan
+
+Manakah keyword berikut ini yang digunakan untuk mendapatkan tipe dari eror yang terjadi?
+
+A
+catch
+
+B
+instanceOf (V)
+
+C
+prototype
+
+D
+typeOf
+
+Manakah keyword berikut ini yang digunakan untuk membuat error secara manual?
+
+A
+try
+
+B
+catch
+
+C
+throw (V)
+
+D
+finally
