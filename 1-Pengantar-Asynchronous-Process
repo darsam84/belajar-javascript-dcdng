@@ -9,3 +9,7 @@ Menangani Proses Asynchronous dengan Pola Callback.
 Menangani Proses Asynchronous dengan Promise.
 Memahami Penggunaan Static Method dari Objek Promise.
 Menangani Proses Asynchronous dengan Sintaks async dan await.
+
+Program asynchronous memungkinkan suatu proses berjalan sembari menunggu proses lainnya selesai.
+Umumnya, kita memanfaatkan asynchronous pada proses yang besar dan membutuhkan waktu lama, seperti mengambil data dari internet, 
+menyimpan data ke database, dan membaca data dari sebuah berkas.
