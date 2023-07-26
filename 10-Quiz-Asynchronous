@@ -1,0 +1,44 @@
+Apa yang dimaksud dengan callback hell?
+
+A
+Sebuah metode yang digunakan untuk menggabungkan banyak data dari berbagai proses asynchronous.
+
+B
+Sebuah pola callback yang sering digunakan pada bahasa pemrograman untuk menangani proses asynchronous. (V)
+
+C
+Sebuah masalah yang sering terjadi ketika sebuah proses asynchronous perlu dijalankan setelah proses asynchronous lainnya selesai.
+
+D
+Sebuah pola kode yang sangat rumit dan sulit dibaca ketika menggunakan banyak callback bersarang.
+
+
+
+Apa yang dilakukan await dalam kode JavaScript?
+
+A
+Await mengakhiri program secara tiba-tiba.
+
+B
+Await digunakan untuk membuat operasi synchronous menjadi asynchronous.
+
+C
+Await menunggu hingga operasi asynchronous selesai dilakukan sebelum menjalankan baris kode selanjutnya.
+
+D
+Await digunakan untuk membuat loop di dalam kode.
+
+
+Apa yang terjadi pada keadaan pending dalam objek Promise?
+
+A
+Objek Promise gagal terpenuhi.
+
+B
+Objek Promise terpenuhi.
+
+C
+Objek Promise sedang berjalan. (v)
+
+D
+Objek Promise dihentikan.
