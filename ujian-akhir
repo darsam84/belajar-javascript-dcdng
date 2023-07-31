@@ -1,0 +1,606 @@
+ategori : Introduction to JavaScript
+
+JavaScript termasuk ke dalam scripting language, apa maksudnya?
+
+A
+Perlu mendefinisikan variabel sebelum bisa menggunakannya.
+
+B
+Pemrograman yang bisa merepresentasikan objek dunia nyata ke dalam program.
+
+C
+Tidak perlu mendefinisikan tipe data variabel secara eksplisit.
+
+D
+Tidak perlu di-compile agar bisa dijalankan.
+
+Benar
+Kategori : Introduction to JavaScript
+
+Dari tiga bahasa utama untuk mengembangkan sebuah website, apakah peran dari JavaScript?
+
+A
+Menambahkan fitur dan fungsionalitas tambahan supaya website menjadi lebih interaktif.
+
+B
+Menampilkan informasi berupa teks atau gambar ke dalam website.
+
+C
+Menambahkan aspek keamanan pada website supaya tidak mudah diserang hacker.
+
+D
+Memberikan desain (style) pada website supaya tampilannya menjadi lebih menarik.
+
+Benar
+Kategori : JavaScript Fundamentals
+
+Perhatikan kode berikut:
+
+if ((true || false) && (false || false)) {
+    console.log("It's true");
+} else {
+    console.log("It's false");
+}
+Output dari program di atas adalah...
+
+A
+It's true
+
+B
+It's false
+
+Benar
+Kategori : JavaScript Fundamentals
+
+Perhatikan kode berikut:
+
+const stock = 0;
+const milkNeeded = 25;
+
+if (stock > milkNeeded) {
+  stock = stock - milkNeeded;
+  console.log('Processing your order...');
+} else {
+  console.log('Out of Stock!');
+}
+
+console.log('Thank you');
+Output dari program di atas adalah...
+
+A
+Out of Stock!
+Thank you
+
+B
+Processing your order...
+Thank you
+
+C
+Out of Stock!
+
+D
+Processing your order...
+
+Benar
+Kategori : JavaScript Fundamentals
+
+Manakah pernyataan berikut ini yang benar terkait if statement?
+
+A
+Statement if hanya bisa melakukan maksimal 3 pengecekan kondisi.
+
+B
+Kode if harus diikuti dengan else.
+
+C
+Kita bisa menambahkan blok kode if di dalam if.
+
+D
+Statement if hanya bisa melakukan pengecekan untuk variabel boolean.
+
+Salah
+Kategori : JavaScript Fundamentals
+
+Perhatikan kode berikut:
+
+const name = 'Dicoding';
+const language = 'JavaScript';
+
+console.log(`Hello $name. Welcome to $language!`);
+Apakah yang akan ditampilkan pada konsol ketika kode dijalankan?
+
+A
+Hello $name. Welcome to $language!
+
+B
+Hello Dicoding. Welcome to JavaScript!
+
+C
+Hello JavaScript. Welcome to Dicoding!
+
+D
+Error
+
+Salah
+Kategori : Data Structure
+
+Terdapat kode seperti berikut:
+
+const artistsAndSongs = {
+    "Keyakizaka46": ["Silent Majority"],
+    "Blackpink": ["How You Like That", "Ice Cream"],
+    "JKT48": ["Rapsodi", "Heavy Rotation"],
+    "Twice": ["What is Love?"],
+}
+
+artistsAndSongs["Babymetal"] = ["Gimme chocolate"];
+
+delete artistsAndSongs["Keyakizaka46"];
+Setelah kode di atas dijalankan, manakah yang menjadi key dari object artistsAndSongs?
+
+A
+[ Keyakizaka46', 'Blackpink', 'JKT48', 'Twice', 'Babymetal' ]
+
+B
+[ 'Keyakizaka46', 'Blackpink', 'JKT48', 'Twice' ]
+
+C
+[ 'Blackpink', 'JKT48', 'Twice' ]
+
+D
+[ 'Blackpink', 'JKT48', 'Twice', 'Babymetal' ]
+
+Salah
+Kategori : Data Structure
+
+Manakah output dari kode berikut:
+
+const oneTwoThree = [1, 2, 3];
+const sevenEightNine = [7, 8, 9];
+
+const result = [4, 5, 6, ...oneTwoThree, ...sevenEightNine];
+
+console.log(result);
+A
+[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+B
+[4, 5, 6, 1, 2, 3, 7, 8, 9]
+
+C
+[4, 5, 6, 7, 8, 9, 1, 2, 3]
+
+D
+Error
+Benar
+Kategori : Data Structure
+
+Anda memiliki array yang berisi 10 elemen. Bagaimana Anda menampilkan elemen ke-7?
+
+A
+console.log(myArr[6]);
+
+B
+console.log(myArr[7]);
+
+C
+console.log(myArr[8]);
+
+D
+console.log(myArr.get(7));
+
+Salah
+Kategori : Functions
+
+Perhatikan kode berikut:
+
+function multiply(num) {
+    total = num * num;
+}
+
+const result = multiply(3);
+
+console.log(result);
+Manakah output yang tepat ketika kode di atas dijalankan?
+
+A
+result
+
+B
+9
+
+C
+undefined
+
+D
+Error
+
+Salah
+Kategori : Functions
+
+Perhatikan kode berikut:
+
+function calculate(value) {
+    return value < 2 ? value : (calculate(value - 1) + calculate(value - 2));
+}
+
+console.log(calculate(3));
+Jika kode di atas dijalankan, maka manakah hasilnya?
+
+A
+1
+
+B
+2
+
+C
+3
+
+D
+4
+
+E
+Error
+
+Benar
+Kategori : Object-Oriented Programming (OOP)
+
+Perhatikan kode di bawah ini.
+
+class Car { }
+const car = new Car();
+console.log(typeof Car);
+Apa output yang akan dihasilkan?
+
+A
+Function
+
+B
+Class
+
+C
+Car
+
+D
+Object
+
+Benar
+Kategori : Object-Oriented Programming (OOP)
+
+Istilah pewarisan pada paradigma Object Oriented Programming biasa dikenal dengan…
+
+A
+Extensions
+
+B
+Abstraction
+
+C
+Overriding
+
+D
+Inheritance
+
+Benar
+Kategori : Object-Oriented Programming (OOP)
+
+Perhatikan kode constructor function berikut.
+
+function car({ brand, maxSpeed, wheelCount }) {
+  this.brand = brand;
+  this.maxSpeed = maxSpeed;
+  this.wheelCount = wheelCount;
+}
+
+const myCar = car({ brand: 'Toyota', maxSpeed: 200, wheelCount: 4 });
+Jika kode di atas dijalankan, objek myCar gagal dibuat. Apa alasannya?
+
+A
+argumen dari constructor function tidak boleh sebuah objek.
+
+B
+Constructor function harus mengembalikan objek.
+C
+Pemanggilan constructor function car harus diawali dengan keyword new.
+
+D
+Constructor function harus diberi nama dengan awalan huruf kapital.
+Benar
+Kategori : Functional Programming (FP)
+
+Berikut ini yang bukan merupakan karakteristik dari functional programming, adalah...
+
+A
+Immutability
+
+B
+Pure Function
+
+C
+Higher-order
+
+D
+Polymorphism
+
+Benar
+Kategori : Functional Programming (FP)
+
+Apakah yang dimaksud dengan higher-order function?
+
+A
+Fungsi yang dipanggil dari dalam fungsi itu sendiri.
+
+B
+Fungsi yang tidak mengembalikan nilai.
+
+C
+Fungsi yang tidak memiliki nama.
+
+D
+Fungsi yang menggunakan fungsi lainnya sebagai parameter.
+
+Benar
+Kategori : Set Environment
+
+Untuk menjalankan kode pada berkas exam.js. Perintah mana yang digunakan?
+
+A
+node exam.js
+
+B
+node run exam.js
+
+C
+run exam.js
+
+D
+run node exam.js
+
+Salah
+Kategori : Set Environment
+
+Bagaimana cara memeriksa versi NPM yang terinstal saat ini?
+
+A
+npm --version
+
+B
+npm help
+
+C
+npm --ver
+
+D
+Semua salah
+
+Benar
+Kategori : Module
+
+Berikut ini adalah alasan untuk menerapkan module pada project JavaScript, kecuali...
+
+A
+Mengorganisir project sehingga lebih mudah dalam pengelolaannya.
+
+B
+Membagi program menjadi bagian-bagian terpisah berdasarkan fungsionalitasnya.
+
+C
+Membebaskan program dari adanya error/bug.
+
+D
+Memudahkan dalam menemukan bug yang terjadi pada kode.
+
+Salah
+Kategori : Module
+
+Cara yang tepat untuk meng-export beberapa nilai sekaligus dalam module adalah ...
+
+A
+Menginisialisasikan setiap nilai yang ingin di-export pada properti module.exports.
+
+B
+Menyimpan setiap nilai pada object literals.
+
+C
+Tidak bisa. Module hanya bisa meng-export satu nilai.
+
+D
+Membuat fungsi pada file module lalu dipanggil dari file yang akan menggunakannya.
+
+Salah
+Kategori : Error Handling
+
+Perhatikan kode berikut:
+
+class MyCustomError extends Error {
+    constructor(message) {
+        super(message);
+        this.name = "MyError";
+    }
+}
+
+try {
+    throw new MyCustomError("This is an error");
+} catch (e) {
+    console.log(e.message);
+}
+Output ketika kode di atas dijalankan adalah...
+
+A
+MyCustomError
+
+B
+This is an error
+
+C
+MyError
+
+D
+Aplikasi tidak bisa dijalankan
+
+Salah
+Kategori : Error Handling
+
+Manakah keyword berikut ini yang digunakan untuk membuat error secara manual?
+
+A
+try
+
+B
+catch
+
+C
+throw
+
+D
+finally
+
+Salah
+Kategori : Error Handling
+
+Perhatikan kode berikut:
+
+try {
+    const arr = [1, 2, 3, 4];
+    for (let i = 0; i <= 4; i++) {
+        console.log(arr[i]);
+    }
+} catch(e) {
+    console.log("Out of bounds");
+}
+Output yang akan dihasilkan ketika kode di atas dijalankan adalah...
+
+A
+Out of bounds
+
+B
+1
+2
+3
+4
+
+C
+1
+2
+3
+4
+Out of bounds
+
+D
+1
+2
+3
+4
+undefined
+
+Kategori : Concurrency
+
+Mengapa pada fungsi callback selain membawa argumen data, ia juga membawa argumen error?
+
+A
+Agar proses asynchronous bisa berjalan lebih cepat
+
+B
+Karena proses asynchronous berpotensi menghasilkan error
+
+C
+Untuk menunjukkan bahwa proses asynchronous telah selesai
+
+D
+Untuk mempermudah penggunaan callback pada proses asynchronous
+
+Kategori : Concurrency
+
+Apa yang dimaksud dengan callback hell?
+
+A
+Sebuah pola callback yang sering digunakan pada bahasa pemrograman untuk menangani proses asynchronous.
+
+B
+Sebuah masalah yang sering terjadi ketika sebuah proses asynchronous perlu dijalankan setelah proses asynchronous lainnya selesai.
+
+C
+Sebuah pola kode yang sangat rumit dan sulit dibaca ketika menggunakan banyak callback bersarang.
+
+D
+Sebuah metode yang digunakan untuk menggabungkan banyak data dari berbagai proses asynchronous.
+
+Kategori : Concurrency
+
+Apa yang terjadi pada keadaan pending dalam objek Promise?
+
+A
+Objek Promise sedang berjalan.
+
+B
+Objek Promise gagal terpenuhi.
+
+C
+Objek Promise terpenuhi.
+
+D
+Objek Promise dihentikan.
+
+Kategori : Node Package Manager
+
+Manakah dari pilihan berikut ini yang bukan merupakan fungsi file package-lock.json?
+
+A
+Menyimpan informasi keseluruhan package yang digunakan.
+
+B
+Mendeskripsikan susunan dependency dari satu package ke package lainnya.
+
+C
+Menentukan versi package yang digunakan dengan lebih spesifik.
+
+D
+Menyimpan informasi package global yang digunakan.
+
+Kategori : Node Package Manager
+
+Manakah perintah berikut ini yang tepat untuk menginstal package NPM ke dalam project?
+
+A
+npm i <package-name>
+
+B
+npm add <package-name>
+
+C
+npm install <package-name>
+
+D
+Semua benar
+
+Kategori : Testing
+
+Misal kita memiliki fungsi untuk menghitung rumus segitiga. Berikut ini adalah beberapa skenario yang bisa kita uji, kecuali...
+
+A
+Memastikan input harus berupa sisi segitiga sama kaki.
+
+B
+Memastikan input yang diberikan berupa number.
+
+C
+Memastikan input yang diberikan tidak bernilai negatif.
+
+D
+Memastikan output sesuai dengan input yang diberikan.
+
+Kategori : Testing
+
+Berikut ini adalah beberapa alasan perlu menerapkan automated testing, kecuali...
+
+A
+Penghematan biaya waktu (time cost) pada pengembangan aplikasi.
+
+B
+Mengatasi testing manual yang rawan akan kesalahan.
+
+C
+Memastikan kualitas kode yang minim dari bug.
+
+D
+Meningkatkan kecepatan dan performa aplikasi.
